@@ -1,0 +1,19 @@
+X = imread('iogray.tif');
+z=zeros(512,512);
+X1=[z,z,z;z,X,z;z,z,z];
+X2=[X,X,X;X,X,X;X,X,X];
+Xlr=fliplr(X);Xud=flipud(X);Xx=fliplr(Xud);
+X3=[Xx,Xud,Xx;Xlr,X,Xlr;Xx,Xud,Xx];
+p=psfGauss(32,15);
+B1=conv2(X1,p,'same');
+B1=B1(513:1024,513:1024);
+B2=conv2(X2,p,'same');
+B2=B2(513:1024,513:1024);
+B3=conv2(X3,p,'same');
+B3=B3(513:1024,513:1024);
+subplot(1,3,1)
+imshow(B1,[])
+subplot(1,3,2)
+imshow(B2,[])
+subplot(1,3,3)
+imshow(B3,[])
