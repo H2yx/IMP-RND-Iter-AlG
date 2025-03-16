@@ -1,7 +1,7 @@
 # IMP-RND-Iter-AlG
-A respository for randomize iterative algorithm and theoretical research of color image restoration for discrete ill-posed inverse problems
+A respository for randomized iterative algorithm and theoretical research of color image restoration for discrete ill-posed inverse problems
 
-This is a project team of undergraduates from the School of Mathematical Sciences of Tongji University, in charge of a municipal project for innovation and entrepreneurship entitled "randomize iterative algorithm and theoretical research of color image restoration for discrete ill-posed inverse problems".
+This is a project team of undergraduates from the School of Mathematical Sciences of Tongji University, in charge of a municipal project for innovation and entrepreneurship entitled "randomized iterative algorithm and theoretical research of color image restoration for discrete ill-posed inverse problems".
 
 The details are as follows.
 
@@ -35,3 +35,5 @@ The details are as follows.
 2. **nonnegative matrix decomposition**：<br>主要包括若干种矩阵非负分解的迭代法代码
 3. **random sketch iterative method**：<br>包括草图投影方法的代码复现，草图反射方法框架的代码（支持多种参数的选择）以及若干经典随机迭代法
 4. **random feature model**：<br>对于随机特征方法的代码复现
+
+## 欢迎交流参考
